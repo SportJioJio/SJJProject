@@ -8,7 +8,7 @@ This project creates a web app which you can easily hang out with your friends.
 * run `cp -r ~/sslcert ./sslcert` in terminal
 * run `cp ~/yc/.env ./.env` in the terminal
 
-### Scripts
+## Scripts
 
 `npm run install-all` <br>
 install all dependencies
@@ -22,7 +22,7 @@ start client
 `npm run start-server` <br>
 start server
 
-### Docker Commands
+## Docker Commands
 
 Under the _SJJProject_ directory <br>
 
