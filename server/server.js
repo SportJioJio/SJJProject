@@ -84,10 +84,9 @@ app.use(function (err, req, res, next) {
   res.render("error");
 });
 
-// var httpServer = http.createServer(app);
+var httpServer = http.createServer(app);
 var httpsServer = https.createServer(credentials, app);
 
-// httpServer.listen(3001, () =>
-//   console.log("HTTP Backend server is listening on port 3001")
+httpServer.listen(3000, () => console.log("HTTP server is listening on port 3000"));
 
-httpsServer.listen(443, () => console.log("HTTPS Backend server is listening on port 443"));
+httpsServer.listen(443, () => console.log("HTTPS server is listening on port 443"));
