@@ -13,10 +13,10 @@ import liff from "@line/liff";
 // for test
 // const liffId_test = '2003890387-46rMAvQQ'; //這個換成https://sportjiojio.site的LIFF的ID
 // const test_url = 'https://5568-140-114-217-46.ngrok-free.app'; //這個改成https://sportjiojio.site
-const liffId_test = "2003890387-Lo2nNExx"; //這個換成https://sportjiojio.site的LIFF的ID
-const test_url = "https://2987-2001-b400-e300-ddd5-f7c5-7cdb-6010-169.ngrok-free.app"; //這個改成https://sportjiojio.site
-// const liffId_test = "2003890387-36qLbEdd"; //這個換成https://sportjiojio.site的LIFF的ID
-// const test_url = "https://sportjiojio.site"; //這個改成https://sportjiojio.site
+// const liffId_test = "2003890387-Lo2nNExx"; //這個換成https://sportjiojio.site的LIFF的ID
+// const test_url = "https://2987-2001-b400-e300-ddd5-f7c5-7cdb-6010-169.ngrok-free.app"; //這個改成https://sportjiojio.site
+const liffId_test = "2003890387-36qLbEdd"; //這個換成https://sportjiojio.site的LIFF的ID
+const test_url = "https://sportjiojio.site"; //這個改成https://sportjiojio.site
 
 const App = () => {
   const [search, setSearch] = useState("");
