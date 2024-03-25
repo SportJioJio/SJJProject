@@ -28,6 +28,5 @@ Under the _SJJProject_ directory <br>
 
 run `docker build . -t sjjproject` to generate image
 
-run `docker run --network="host" --env-file=.env sjjproject:latest` to start container
+run `docker run --network="host" --env-file=.env sjjproject:latest` to start container, add a `-d` flag can make the container run in background
 
-run `docker run -d --network="host" --env-file=.env sjjproject:latest` to start container without displaying the logs
